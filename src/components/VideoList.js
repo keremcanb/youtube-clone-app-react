@@ -1,5 +1,5 @@
-import React from "react";
-import VideoItem from "./VideoItem";
+import React from 'react';
+import VideoItem from './VideoItem';
 
 const VideoList = ({ videosProp, onVideoSelectProp }) => {
   const renderList = videosProp.map((video) => {
@@ -12,7 +12,7 @@ const VideoList = ({ videosProp, onVideoSelectProp }) => {
     );
   });
 
-  return <div className="ui relaxed divided list">{renderList}</div>;
+  return <div className='ui relaxed divided list'>{renderList}</div>;
 };
 
 export default VideoList;

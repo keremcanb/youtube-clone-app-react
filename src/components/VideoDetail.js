@@ -1,5 +1,5 @@
-import React from "react";
-import Spinner from "./spinner";
+import React from 'react';
+import Spinner from './spinner';
 
 const VideoDetail = ({ videoProp }) => {
   if (!videoProp) {
@@ -16,11 +16,11 @@ const VideoDetail = ({ videoProp }) => {
 
   return (
     <div>
-      <div className="ui embed">
-        <iframe src={videoSrc} title="video-player" />
+      <div className='ui embed'>
+        <iframe src={videoSrc} title='video-player' />
       </div>
-      <div className="ui segment">
-        <h4 className="ui header">{videoProp.snippet.title}</h4>
+      <div className='ui segment'>
+        <h4 className='ui header'>{videoProp.snippet.title}</h4>
         <p>{videoProp.snippet.description}</p>
       </div>
     </div>
