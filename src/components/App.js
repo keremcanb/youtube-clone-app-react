@@ -14,7 +14,6 @@ const App = () => {
         q: term,
       },
     });
-
     setVideosState(youtubeResponse.data.items);
     setSelectedVideoState(youtubeResponse.data.items[0]);
   };
